@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UFO Sightings</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_schedule.css">
+  <link rel="stylesheet" type="text/css" href="Teams_style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="app.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.4.4"></script>
+</head>
+<body>
+  <table id="ufo-table">
+    <thead>
+      <tr>
+        <th>Datetime</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Shape</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <input type="text" id="datetime" placeholder="Datetime">
+  <input type="text" id="city" placeholder="City">
+  <input type="text" id="state" placeholder="State">
+  <input type="text" id="country" placeholder="Country">
+  <input type="text" id="shape" placeholder="Shape">
+  <button id="filter-btn">Filter</button>
+</body>
+</html>
