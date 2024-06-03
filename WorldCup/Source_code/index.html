@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UFO Sightings</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <table id="ufo-table">
+    <thead>
+      <tr>
+        <th>Datetime</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Shape</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <input type="text" id="datetime" placeholder="Datetime">
+  <input type="text" id="city" placeholder="City">
+  <input type="text" id="state" placeholder="State">
+  <input type="text" id="country" placeholder="Country">
+  <input type="text" id="shape" placeholder="Shape">
+  <button id="filter-btn">Filter</button>
+</body>
+</html>
